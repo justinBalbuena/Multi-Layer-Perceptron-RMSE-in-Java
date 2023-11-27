@@ -17,7 +17,6 @@ public class errorCorrectionRmse {
         //makes random decimal number up to the 1000ths between -0.5 and 0.5
         num = (int)((Math.random() - 0.5) * 1000);
         weights[i] = (num / 1000);
-        // weights[i] = 1;
       }
     }
     else {
@@ -26,7 +25,6 @@ public class errorCorrectionRmse {
         System.out.println("Enter weight number " + i + ": ");
         weights[i] = input.nextDouble();
       }
-      // input.close();
       System.out.println();
       input.close();
     }
